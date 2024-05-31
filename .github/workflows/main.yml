@@ -20,7 +20,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: "Argent96"
-          password: "123456789"
+          password: "dckr_pat_DlEbN2JkcD8fM2AuixCoCizDlyw"
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
